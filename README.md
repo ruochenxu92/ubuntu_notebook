@@ -117,4 +117,4 @@ Reference:
 * https://github.com/jupyter/notebook/issues/625
 
 ###### Author: Ruochen Xu 徐若尘
-###### Source: https://github.com/xxu46/deep-learning-framework-setup
+###### Source: https://github.com/xxu46/ubuntu_notebook
