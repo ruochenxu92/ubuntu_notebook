@@ -1,4 +1,4 @@
-# Ubuntu16.04 Jupyter Notebook with python 3.6, July 15th, 2017
+# Ubuntu16.04 Jupyter Notebook with python 2.7, July 15th, 2017
 
 ### 1.create an instance from [https://digitalocean.com](https://m.do.co/c/e7315169c573) (for easy and cheap($5 per month) to start, no worry about firewall issue)
 
@@ -25,21 +25,22 @@ ssh ubuntu@ip
 ```sh
 #install anaconda, use default path and yes export to bash
 
-#py3.6
+#py3.6, (optional)
 wget https://repo.continuum.io/archive/Anaconda3-4.4.0-Linux-x86_64.sh
 bash Anaconda3-4.4.0-Linux-x86_64.sh
-#py2.7
+
+#py2.7, recommended
 wget https://repo.continuum.io/archive/Anaconda2-4.4.0-Linux-x86_64.sh
 bash Anaconda2-4.4.0-Linux-x86_64.sh
 
 # add this line to .bashrc
 source ~/.bashrc
 
-# create py3.6 environment
-conda create -n py3.6 python=3.6 anaconda
+# create py2.7 environment
+conda create -n py2.7 python=2.7 anaconda
 
 # activate the environment
-source activate py3.6
+source activate py2.7
 
 # install juypterhub
 conda install -c conda-forge jupyterhub=0.7.2
