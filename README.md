@@ -3,7 +3,7 @@
 ### 1.create an instance from https://digitalocean.com (for easy and cheap($5 per month) to start, no worry about firewall issue)
 
 ###### ssh root@ip
-type password
+type password from email
 
 ```
 #Create ubuntu user
