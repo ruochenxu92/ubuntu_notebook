@@ -114,7 +114,7 @@ tail /var/log/nginx/error.log
 jupyter notebook
 ```
 open your ip and type password, you should good to go.
-an exmaple will be http://162.243.155.204/
+an exmaple will be http://162.243.155.204/ or sss.watch
 
 
 Reference: 
