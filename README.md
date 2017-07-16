@@ -25,9 +25,12 @@ ssh ubuntu@ip
 ```sh
 #install anaconda, use default path and yes export to bash
 
+#py3.6
 wget https://repo.continuum.io/archive/Anaconda3-4.4.0-Linux-x86_64.sh
-
 bash Anaconda3-4.4.0-Linux-x86_64.sh
+#py2.7
+wget https://repo.continuum.io/archive/Anaconda2-4.4.0-Linux-x86_64.sh
+bash Anaconda2-4.4.0-Linux-x86_64.sh
 
 # add this line to .bashrc
 source ~/.bashrc
