@@ -59,8 +59,11 @@ jupyter notebook
     to login with a token:
         http://localhost:8888/?token=a9b26de95e061e401ea302xxx
 ```
-then open another terminal, run
+then open another terminal, following step is expose your localhost:8888 to the world
 
+###### ssh ubuntu@ip
+
+run
 ```
 curl http://localhost:8888/?token=a9b26de95e061e401ea302xxx
 ```
