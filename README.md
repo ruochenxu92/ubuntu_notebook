@@ -109,7 +109,7 @@ tail /var/log/nginx/error.log
 
 ### last step, start server
 ```sh
-jupyter notebook --allow-root
+jupyter notebook
 ```
 open your ip and type password, you should good to go.
 an exmaple will be http://162.243.155.204/
