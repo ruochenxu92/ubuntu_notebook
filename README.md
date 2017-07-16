@@ -70,6 +70,25 @@ run
 curl http://localhost:8888/?token=a9b26de95e061e401ea302xxx
 ```
 
+
+### setup password instead of token
+open python shell
+```
+from notebook.auth import passwd
+passwd()
+'sha1:233425b328af23...'
+# save this secret
+```
+
+
+```
+jupyter notebook --generate-config
+cd .jupyter
+# put secret below in config
+echo "c.NotebookApp.password = 'sha1:233425b328af23...'" >> jupyter_notebook_config.py
+```
+
+
 ### open your port 8888 by using nginx server
 
 cp follow text to a file call ~/my.conf
