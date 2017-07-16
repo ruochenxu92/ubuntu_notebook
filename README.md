@@ -40,8 +40,10 @@ source activate py3.6
 
 # install juypterhub
 conda install -c conda-forge jupyterhub=0.7.2
-
 ```
+
+```sh
+#start server
 jupyter notebook
 ```
 
