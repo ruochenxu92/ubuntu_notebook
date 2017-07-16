@@ -1,6 +1,6 @@
 # Ubuntu16.04 Jupyter Notebook with python 3.6, July 15th, 2017
 
-### 1.create an instance from https://digitalocean.com (for easy and cheap($5 per month) to start, don't worry about firewall issue)
+### 1.create an instance from https://digitalocean.com (for easy and cheap($5 per month) to start, no worry about firewall issue)
 
 ###### ssh root@ip
 type password
